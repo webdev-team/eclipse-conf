@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    $URL: https://scm.eng.rtl.fr/svn/dev/rtlnet/tools/eclipse-conf/trunk/pom.xml $
-    $LastChangedBy: olivier.lagache $ - $LastChangedDate: 2011-10-25 14:55:37 +0200 (Mar, 25 oct 2011) $ - $Revision: 69902 $
--->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
@@ -17,9 +13,8 @@
         <name>RTL group software development team</name>
     </organization>
     <scm>
-        <url>https://scm.eng.rtl.fr/svn/dev/rtlnet/tools/eclipse-conf/trunk</url>
-        <connection>scm:svn:https://scm.eng.rtl.fr/svn/dev/rtlnet/tools/eclipse-conf/trunk</connection>
-        <developerConnection>scm:svn:https://scm.eng.rtl.fr/svn/dev/rtlnet/tools/eclipse-conf/trunk</developerConnection>
+        <connection>scm:git:git@github.com:webdev-team/eclipse-conf.git</connection>
+        <developerConnection>scm:git:git@github.com:webdev-team/eclipse-conf.git</developerConnection>
     </scm>
     <issueManagement>
         <system>JIRA</system>
@@ -35,10 +30,6 @@
         <artifactId>webportals-parent</artifactId>
         <version>18</version>
     </parent>
-
-    <properties>
-        <project.scm.baseUrl>https://scm.eng.rtl.fr/svn/dev/rtlnet/tools/eclipse-conf</project.scm.baseUrl>
-    </properties>
 
 </project>
 
