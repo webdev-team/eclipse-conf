@@ -1,0 +1,5 @@
+eclipse config stored in nexus.
+
+maven-eclipse-plugin is configure to read this config to build eclipse prefs.
+
+see webportals-parent for usage.
